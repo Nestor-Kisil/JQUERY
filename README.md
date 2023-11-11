@@ -1,8 +1,19 @@
-# HTML Template Repository with HTML Proofer
+# JQuery-task
 
-This template repository includes preconfigured GitHub Action that will validate html files in a project with (HTMLProofer)[https://github.com/gjtorikian/html-proofer/].
+## Усі завдання слід виконвути, використовуючи бібліотеку **JQuery**
 
-Validation is performed with dynamic pre-rendering of html files so it will allow to construct them with JavaScript on the fly.
+## Task 1
 
-HTML files with 'partial.html' suffix will be ignored, so validator is compatible with dynamic construction of website with html includes like (HTML Data Include)[https://github.com/programmingmentor/html-data-include].
+Для заданої [сторінки](task1/index.html) знайдіть всі `<h2>` з класом head, зробіть для них зелений колір фону, потім серед знайдених елементів знайдіть елементи з класом `inner` і поставте їм розмір шрифту `35px` (не вносьте змін до html-файлу).
 
+## Task 2
+
+На [HTML-сторінці](task2/index.html) є декілька посилань `<a>`. У випадку коли, href починається на `https://`, потрібно додати посиланню атрибут `target="\_blank"` (не вносьте змін до html-файлу).
+
+## Task 3
+
+На [HTML-сторінці](task3/index.html) знайдіть теги `<div>`, які стоять безпосередньо після `<h3>` і перемістіть ці `<div>`-елемент так, щоб кожен з них став безпосередньо над відповідним елементом `<h3>` (не вносьте змін до html-файлу).
+
+## Task 4
+
+В папці [task4](task4/) створіть HTML-сторінку з 6 чекбоксами. Підключіть бібліотеку **JQuery** та напишіть скріпт, який після того, як користувач позначив будь-які 3 чекбокси, всі чекбокси робить неактивними.
